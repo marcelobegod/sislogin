@@ -1,0 +1,104 @@
+/**** START Auvo msg ****/
+/* Container */
+.msg-auvo-inverse .ui-pnotify-container {
+    background-color: #6d26c2 !important;
+}
+.msg-auvo .ui-pnotify-container {
+    background-color: #FFF !important;
+}
+/* Icone */
+.msg-auvo-inverse .ui-pnotify-icon,
+.msg-auvo .ui-pnotify-icon {
+    display: none;
+}
+/* Alinhamento do texto */
+.msg-auvo-inverse .ui-pnotify-title,
+.msg-auvo-inverse .ui-pnotify.custom,
+.msg-auvo-inverse .ui-pnotify-text,
+.msg-auvo .ui-pnotify-title,
+.msg-auvo .ui-pnotify.custom,
+.msg-auvo .ui-pnotify-text {
+    font-family: 'Poppins', sans-serif !important;
+    padding-left: 20px !important;
+    padding-right: 80px;
+}
+/* Titulo */
+.msg-auvo-inverse .ui-pnotify-title,
+.msg-auvo .ui-pnotify-title {
+    font-weight: 500 !important;
+    font-size: 1.25em !important;
+}
+/* Texto */
+.msg-auvo-inverse .ui-pnotify-text,
+.msg-auvo .ui-pnotify-text {
+    line-height: 20px !important;
+    margin-bottom: 20px;
+    font-size: 15px !important;
+    margin-top: 0 !important;
+}
+/* Cores de fonte */
+.msg-auvo-inverse .ui-pnotify-closer .fa {
+    color: #FFF !important;
+}
+/* Botao */
+.msg-auvo-inverse .btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-weight: 500 !important;
+}
+/**** END Auvo msg ****/
+.ui-pnotify.custom .ui-pnotify-container {
+    background-color: #293e52;
+    background-image: none;
+    border: none;
+}
+.ui-pnotify.custom .ui-pnotify-title, 
+.ui-pnotify.custom .ui-pnotify-text {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 10pt ;
+    color: #FFF ;
+    padding-left: 50px ;
+    line-height: 2 ;
+    text-rendering: geometricPrecision ;
+    margin-top: 10px ;
+}
+.ui-pnotify.custom .ui-pnotify-icon {
+    float: left;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 10px;
+    border-color: #afccaf12;
+    background-color: #afccaf12;
+}
+.ui-pnotify.custom .ui-pnotify-icon .fas {
+    margin: 3px;
+    width: 33px;
+    height: 33px;
+    line-height: 2;
+    text-align: center;
+}
+.ui-pnotify.custom .ui-pnotify-closer .fa{
+    color: #b4c3b447;
+}
+.pnotify-error {
+    color: #fc4b6c;
+}
+.pnotify-loading {
+    color: #7460EE;
+}
+.pnotify-success {
+    color: #00ce8c;
+}
+.pnotify-info{
+    color: #1e88e5;
+}
+.pnotify-warning{
+    color: #ffff00;
+}
+@media (max-width: 480px) {
+    .ui-pnotify-mobile-able.mensagem-ao-usuario {
+        display: none !important;
+    }
+}

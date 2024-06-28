@@ -1,0 +1,870 @@
+﻿ /* Deixa cores do sistema mais escuras */
+/* Cores do sistema */
+/* Cores do cabecalho */
+/*Cores das fontes de tabs */
+/* Fonte do botao secundario */
+html {
+    background: #eef5f9;
+}
+
+body,
+.sidebar-nav ul li a,
+.profile-tab li a.nav-link,
+.customtab li a.nav-link,
+.btn-secondary, .btn-secondary.disabled,
+.fc-event {
+    color: #466C7F;
+}
+
+.page-titles {
+    /*este é o mesmo valor do style.css mas em algum lugar do style o padding-bottom estava sendo trocado para 20px*/
+    padding: 15px 0 !important;
+}
+
+.sidebar-nav ul li.active {
+    color: #FFF !important;
+}
+
+/*select2*/
+.auvo-form .select2-selection--single {
+    margin-top: 0px;
+    border: 1px solid #e2e2e2;
+}
+
+.select2-selection__choice {
+    white-space: normal;
+}
+
+.select2-selection--multiple {
+    border: none !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.select2-selection__choice__remove {
+    margin-right: 10px !important;
+}
+
+.select2-selection__choice {
+    background-color: #FFF !important;
+}
+
+.select2-selection--single {
+    color: #99abb4;
+    margin-top: 9px;
+    border-bottom: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+}
+
+.col-md-12 .select2-container {
+    width: 100% !important;
+}
+
+.col-md-6 .select2-container {
+    width: 100% !important;
+}
+
+.col-md-3 .select2-container {
+    width: 100% !important;
+}
+
+.col-md-4 .select2-container {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #838e94;
+    font-weight: 400;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-left: -3px;
+    border-width: 7px 4px 0px 4px;
+    border-color: #838e94 transparent transparent;
+}
+/* Aumenta off-canvas */
+@media (min-width: 544px) {
+    .shw-rside {
+        width: 420px;
+    }
+}
+
+/* Impede rotação de icone que abre o off-canvas */
+.right-side-toggle i {
+    -webkit-transition-property: unset;
+    -webkit-transition-duration: unset;
+    -moz-transition-property: unset;
+    -moz-transition-duration: unset;
+    transition-property: unset;
+    -o-transition-property: unset;
+    transition-property: unset;
+    transition-property: unset;
+    -o-transition-duration: unset;
+    transition-duration: unset;
+    -webkit-animation-name: unset;
+    -webkit-animation-duration: unset;
+    -webkit-animation-iteration-count: unset;
+    -webkit-animation-timing-function: unset;
+    -moz-animation-name: unset;
+    -moz-animation-duration: unset;
+    -moz-animation-iteration-count: unset;
+    -moz-animation-timing-function: unset;
+    animation-name: unset;
+    animation-duration: unset;
+    animation-iteration-count: unset;
+    animation-timing-function: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+}
+/* Fixa div-button no filtro */
+.fixed-button {
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    padding: 10px 0px 20px;
+    background: #fff;
+}
+/* Redimensionando o input para tags */
+.bootstrap-tagsinput {
+    display: inherit !important;
+    box-shadow: none !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0px !important;
+}
+/* Cursor pointer*/
+.cursor-pointer {
+    cursor: pointer;
+}
+/* Ajuste de tab dentro do menu a direita */
+div.tab-container ul li {
+    padding: 0 !important;
+}
+/* Aumenta modal large */
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 970px;
+    }
+}
+/* Fix para tabelas com um checkAll nao desalinharem o check com o th da tabela */
+.table thead th {
+    vertical-align: top;
+    color: #a6a6a6;
+}
+
+/* Traduz o campo */
+.custom-file-control:lang(en):empty::after {
+    content: "Escolha o arquivo...";
+}
+/* Altera cursor  */
+.visualizacao-editavel {
+    cursor: pointer;
+}
+/* Fix para autocomplete em modal */
+.pac-container {
+    z-index: 9999999999 !important;
+}
+/* Ajusta o tamanho da fonte em autocomplete do typeahead */
+.tt-dropdown-menu, .tt-menu {
+    font-size: 1.1em !important;
+}
+/* Ajusta mesndagens de erro de validacao do parsley ao estilo da auvo */
+.parsley-errors-list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+    .parsley-errors-list li {
+        color: #fc4b6c;
+        font-size: 0.85em;
+    }
+/* END Ajusta mesndagens de erro de validacao do parsley ao estilo da auvo */
+/* Coloca texto de processando nas datatables no canto direito da tabela */
+.dataTables_processing {
+    float: right;
+}
+/* Muda o cursor em erros do parsley clicaveis */
+.form-group.clique-no-erro .parsley-custom-error-message {
+    cursor: pointer !important;
+}
+/* Altero z-index do sidebar para tip aparecer */
+.right-sidebar {
+    z-index: 1050 !important;
+}
+/* Remove Borda do icon search [input buscar-cliente]*/
+.input-group-addon {
+    border: 0px solid transparent !important;
+}
+/* Retira estilo do <li> no global.getErrorMessage() */
+.listErrorMessage {
+    list-style: none !important;
+    text-align: center !important;
+}
+
+li .listErrorMessage {
+    padding: 0px !important;
+}
+/* Aumenta o tamanho do icone voltar*/
+.icon-voltar {
+    font-size: 16px !important;
+}
+
+.icon-anterior {
+    padding-right: 3px !important;
+}
+
+.icon-proximo {
+    padding-left: 3px !important;
+}
+/* Corrige espacamento de inputs taginput */
+.bootstrap-tagsinput {
+    padding: 7px 0px !important;
+}
+    /* Tira o padding de tags input */
+    .bootstrap-tagsinput input {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+/* Ajuste do texto no campo typehead*/
+.tt-suggestion {
+    overflow-x: hidden !important;
+    margin-right: 10px !important;
+    padding-left: 10px !important;
+}
+/* coloca bold nos labels de formularios */
+.right-sidebar label {
+    font-weight: 500 !important;
+    color: #7460ee;
+}
+/* Ajusta o datepicker*/
+.datepicker-dropdown {
+    z-index: 100009 !important;
+}
+/* Ajusta estilo do context menu do mapa */
+.leaflet-contextmenu {
+    padding: 0 !important;
+}
+
+.context-menu-container {
+    padding: 15px !important;
+    margin: 0 !important;
+}
+
+    /*.leaflet-container a {
+    margin: 0 !important;
+    padding: 0 !important;
+}*/
+
+    /* Escurece o fundo do item selecionado no botao direito do mouse no mapa */
+    .context-menu-container:hover {
+        background-color: #F2F4F8;
+    }
+/* Ajusta card ao gridstack dentro do auvo */
+.grid-stack .card {
+    margin-bottom: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.sweet-alert-lg {
+    width: 715px !important;
+    margin-left: -337px !important;
+    padding: 17px !important;
+}
+
+.bootstrap-tagsinput .tag {
+    font-size: 0.9rem !important;
+}
+
+@media (min-width: 1100px) {
+    .container-fluid {
+        max-width: 97vw;
+    }
+}
+
+.scroll-sidebar, .topbar .top-navbar {
+    max-width: 97vw;
+}
+
+/*-----------------------------------------------*/
+
+body #content-body {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.topbar {
+    background: #6d26c6;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: fixed;
+    width: 100%;
+}
+
+    /* Aumenta a div de perfil */
+    .topbar ul.dropdown-user {
+        width: 350px;
+        padding: 10px;
+    }
+
+        .topbar ul.dropdown-user i {
+            width: 20px;
+            margin-right: 5px;
+            text-align: center;
+        }
+
+        .topbar ul.dropdown-user li .dw-user-box .u-text .btn:hover {
+            background: #5D1BAD;
+            border-color: #5D1BAD;
+        }
+
+    .topbar i.mdi.mdi-menu {
+        font-size: 22px;
+    }
+
+    .topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+        color: #fff !important;
+    }
+
+    .topbar ul.dropdown-user li.divider {
+        margin: 0;
+    }
+
+    .topbar .dw-user-box {
+        white-space: nowrap;
+    }
+
+        .topbar .dw-user-box .u-text {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: calc(100% - 80px);
+        }
+
+            .topbar .dw-user-box .u-text * {
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+    .topbar .top-navbar {
+        min-height: 60px;
+    }
+
+        .topbar .top-navbar .navbar-header {
+            line-height: 50px;
+        }
+
+            .topbar .top-navbar .navbar-header .navbar-brand b {
+                line-height: 50px;
+            }
+
+            .topbar .top-navbar .navbar-header .navbar-brand {
+                line-height: initial;
+            }
+
+                .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+                    height: 32px;
+                    width: 32px;
+                }
+
+.limita-nav-item {
+    max-width: 58%;
+}
+
+.topbar .top-navbar .navbar-nav > .nav-item > .nav-link {
+    line-height: 44px;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+    .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile {
+        font-size: 0.85rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+    }
+
+        .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile i.icon-chevron {
+            margin-left: 6px;
+            font-size: 11px;
+        }
+
+        .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile i.icon-user {
+            font-size: 16px;
+        }
+
+aside.left-sidebar {
+    position: initial;
+    padding: 0px;
+    line-height: 44px;
+}
+
+    aside.left-sidebar .sidebar-nav > ul > li {
+        padding: 0;
+    }
+
+        aside.left-sidebar .sidebar-nav > ul > li > a {
+            border-radius: 0;
+            padding: 8px 20px;
+            font-weight: normal;
+        }
+
+    aside.left-sidebar .sidebar-nav ul li ul {
+        padding: 0;
+    }
+
+    aside.left-sidebar .sidebar-nav ul li ul {
+        line-height: 44px;
+    }
+
+        aside.left-sidebar .sidebar-nav ul li ul li a {
+            padding: 0 20px;
+            color: #555764;
+        }
+
+@media (max-width: 820px) {
+    .mini-sidebar .left-sidebar {
+        left: 0;
+        top: 60px;
+    }
+}
+
+@media(max-width: 870px) {
+    .sidebar-nav > ul > li > a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 820px) {
+    .topbar .top-navbar .navbar-header {
+        width: auto;
+    }
+
+    aside.left-sidebar, aside.left-sidebar {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        aside.left-sidebar,
+        aside.left-sidebar .sidebar-nav,
+        aside.left-sidebar .sidebar-nav > ul > li > a.active {
+            background: transparent;
+        }
+
+            aside.left-sidebar .sidebar-nav #sidebarnav {
+                display: flex;
+            }
+
+                aside.left-sidebar .sidebar-nav #sidebarnav > li > a {
+                    color: #fff;
+                }
+
+                aside.left-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+                    color: #D6B8FA;
+                }
+
+                aside.left-sidebar .sidebar-nav #sidebarnav > li > ul {
+                    border-radius: 0 0 5px 5px;
+                    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                    width: 600px;
+                    padding: 15px;
+                    font-weight: normal;
+                }
+
+                aside.left-sidebar .sidebar-nav #sidebarnav > li > a.has-arrow {
+                    padding-right: 30px;
+                }
+
+                    aside.left-sidebar .sidebar-nav #sidebarnav > li > a.has-arrow:after {
+                        display: block;
+                        border-color: inherit;
+                        border-width: 2px 0 0 2px;
+                        -webkit-transform: rotate(-135deg) translate(0, -50%);
+                        -ms-transform: rotate(-135deg) translate(0, -50%);
+                        -o-transform: rotate(-135deg) translate(0, -50%);
+                        transform: rotate(-135deg) translate(0, -50%);
+                    }
+}
+
+aside.left-sidebar .sidebar-nav > ul > li.active > a,
+aside.left-sidebar .sidebar-nav > ul > li.active:hover > a {
+    background: #5D1BAD;
+    color: #fff;
+}
+
+aside.left-sidebar .sidebar-nav li > ul > li a.active, aside.left-sidebar .sidebar-nav li > ul > li a:hover {
+    color: #2664C2;
+    font-weight: 500;
+}
+
+
+/*-----------------------------------------------*/
+
+    div.mensagem-ao-usuario {
+        background: #fff9b0;
+        width: 100%;
+        line-height: 33px;
+        padding: 0.5rem;
+        -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.15);
+    }
+
+    div.mensagem-ao-usuario.info {
+        background: #fff;
+    }
+
+    div.mensagem-ao-usuario div.mensagem-fim-teste {
+        text-align: center;
+        line-height: 54px;
+        font-weight: 500;
+    }
+
+    div.mensagem-ao-usuario div.mensagem-inadimplente {
+        text-align: center;
+        line-height: 54px;
+        font-weight: 500;
+        background-color: inherit;
+        color: #856404;
+    }
+
+    div.mensagem-ao-usuario div.mensagem-email {
+        text-align: left;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: inherit;
+        color: #856404;
+    }
+
+    div.mensagem-ao-usuario div.mensagem-inadimplente a {
+        font-weight: inherit;
+        color: inherit;
+        text-decoration: underline;
+        background-color: inherit;
+        padding-left: 0;
+        padding-right: 0;
+    }
+/*-----------------------------------------------*/
+
+.form-material .form-group.equipamentoAssociado {
+    overflow: visible;
+}
+
+/*-----------------------------------------------*/
+
+.auvo-editor {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 10px 0px 0px 20px;
+}
+
+    .auvo-editor textarea.form-control, .auvo-editor textarea.form-control:focus {
+        background: none !important;
+        margin-bottom: -5px !important;
+        border: none;
+    }
+
+    .auvo-editor .editor-toolbar {
+        margin-left: -10px;
+        margin-bottom: 8px;
+    }
+
+        .auvo-editor .editor-toolbar a {
+            color: #a5a0ac;
+            margin-right: 5px;
+            padding: 5px 10px;
+        }
+
+        .auvo-editor .editor-toolbar .wysihtml5-command-active,
+        .auvo-editor .editor-toolbar .wysihtml5-action-active {
+            color: #6d26c2;
+        }
+
+    .auvo-editor .wysihtml5-sandbox {
+        margin-bottom: -5px !important;
+    }
+
+/*-----------------------------------------------*/
+
+/*Remover botão flutuante do chat Octadesk em dispositivos móveis*/
+@media (max-width: 767px) {
+    .octadesk-octachat-app {
+        display: none;
+    }
+}
+
+body, [type="checkbox"] + label, label, .form-control {
+    font-size: 0.9rem;
+}
+
+/*Botões*/
+.btn-auvo-primary {
+    background-color: #28cc89;
+    color: white;
+}
+
+.btn-auvo-shadow {
+    box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
+}
+
+.btn-auvo-light {
+    color: #111;
+    background-color: white;
+    border: 1px solid #e9ecef;
+    
+}
+.btn-light {
+    border: 1px solid #CCCCCC;
+}
+.btn-auvo-light:hover {
+    background-color: #e2e6ea;
+}
+
+.btn .focus, .btn:focus {
+    box-shadow: none;
+}
+
+.btn .active {
+    box-shadow: none;
+}
+
+/*form*/
+.auvo-form {
+    padding-left: 10px;
+    padding: 1px;
+    border: none;
+    padding: 8px;
+}
+
+    .auvo-form label {
+        margin-bottom: 5px;
+        color: #9e9e9e;
+        font-weight: 500;
+    }
+
+    .auvo-form small {
+        color: #9e9e9e;
+        font-weight: 400;
+    }
+
+    .auvo-form .auvo-input, .auvo-form textarea, .auvo-form .select2-container--default .select2-selection--multiple, .auvo-form .input-group-addon {
+        border-radius: 5px !important;
+        border: 1px solid #e2e2e2 !important;
+    }
+
+        .auvo-form .auvo-input:not(.auvo-input-readonly) {
+            background: white !important;
+        }
+
+        .auvo-form .auvo-input.auvo-input-readonly {
+            background: #eee !important;
+        }
+
+
+.auvo-input {
+    color: #8e979d;
+}
+
+.auvo-form .auvo-input, .auvo-form textarea {
+    padding: 6px !important;
+}
+
+.auvo-form select, .auvo-form .select2-container--default .select2-selection--multiple {
+    padding: 0px 0px 0px 4px !important;
+}
+
+.auvo-form .select2-container {
+    width: 100% !important;
+    /*o select2 troca essa width dinamicamente, por isso o uso do !important*/
+}
+
+.auvo-form .parsley-errors-list {
+    margin-bottom: 0px;
+}
+
+.auvo-form .auvo-input-left {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border: 1px solid #e2e2e2 !important;
+    background: white !important;
+}
+
+.auvo-form .auvo-input-right {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border: 1px solid #e2e2e2 !important;
+    background: white !important;
+}
+
+.wizard-content .wizard > .steps > ul > li > a {
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.wizard-content .wizard > .content > .body {
+    padding: 10px;
+}
+
+table.dataTable tbody td {
+    word-break: break-word;
+    vertical-align: top;
+}
+
+.dataTables_scrollHeadInner {
+    box-sizing: inherit !important;
+    padding-right: 0px !important;
+}
+
+.table, .dataTables_scrollHead, .dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+
+    .table::-webkit-scrollbar, .dataTables_scrollBody::-webkit-scrollbar {
+        width: 6px;
+        height: 8px;
+        background-color: #f8f8f8;
+    }
+
+    .table::-webkit-scrollbar-thumb, .dataTables_scrollBody::-webkit-scrollbar-thumb {
+        background-color: rgba(201, 201, 201, 0.2901960784313726);
+        border-radius: 15px;
+    }
+
+    .table .selected {
+        background-color: #f8f8f8;
+    }
+
+[type="checkbox"].filled-in:disabled:checked + label:after {
+    opacity: 0.5 !important;
+}
+
+:disabled, .disabled,
+.select2-container--disabled,
+.disabled [class*="switch-col-"],
+.disabled input,
+.disabled .tag,
+.disabled .tag [data-role="remove"],
+.select2-container--disabled .select2-selection__rendered {
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+}
+
+.auvo-table-click tr {
+    transition: background-color 0.5s;
+}
+
+.auvo-table-click tbody tr:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.auvo-table-click .dataTables_empty {
+    background-color: white;
+    cursor: default;
+}
+
+
+body .tooltip {
+    z-index: 100000;
+}
+
+.profile-tab li a.nav-link.active, .customtab li a.nav-link.active {
+    border-bottom: 3px solid #7460ee;
+}
+
+.nav-link:not(.active) h5 {
+    color: #a6a6a6;
+}
+
+a {
+    font-weight: 400;
+}
+
+.modal-xl {
+    max-width: 70%;
+    width: 70%;
+    min-width: 1000px;
+}
+
+.modal-content {
+    animation: fadein 1s both;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.auvo-img-datatable td {
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+}
+
+.auvo-img-datatable img {
+    height: 70px !important;
+    width: 70px !important;
+    object-fit: contain;
+    /*border-radius: 100%;*/
+    border-radius: 10px;
+}
+
+.auvo-img-datatable .header-imagem {
+    text-align: center;
+    width: 80px !important;
+}
+
+.auvo-format-text-content {
+    word-wrap: break-word;
+    white-space: break-spaces;
+}
+
+/* Scrollable para typehead cliente */
+#form-cliente .twitter-typeahead .tt-menu {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+/*------------------------------------------------*/
+
+label.label-obrigatorio::after {
+    content: " *";
+    color: #fc4b6c;
+}
+
+@media (min-width: 1000px) and (max-width: 1240px) {
+    .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile {
+        max-width: 110px;
+    }
+}
+
+@media (min-width: 1240px) and (max-width: 1350px) {
+    .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile {
+        max-width: 160px;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1400px) {
+    .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile {
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    .topbar .top-navbar .navbar-nav > .nav-item > .nav-link.profile {
+        max-width: 290px;
+    }
+}
